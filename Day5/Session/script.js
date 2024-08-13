@@ -32,5 +32,7 @@ let allv = bike.concat(car)
 console.log(allv)
 
 
-let sliceB = bike.slice(1,4)
+let sliceB = bike.slice(-1,4)
 console.log(sliceB)
+bike.splice(1,2,'kl','yh')
+console.log
