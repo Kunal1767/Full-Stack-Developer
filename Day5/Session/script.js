@@ -28,11 +28,17 @@
 
 let bike = ['honda','bmw','kawasaki','bajaj']
 let car =['maruti','apachi','tvs']
-let allv = bike.concat(car)
-console.log(allv)
+// let allv = bike.concat(car)
+// console.log(allv)
 
 
-let sliceB = bike.slice(-1,4)
-console.log(sliceB)
-bike.splice(1,2,'kl','yh')
-console.log
+// let sliceB = bike.slice(-1,4)
+// console.log(sliceB)
+
+bike.splice(1,1,'kl','lk')
+console.log(bike)
+// console.log(bike.indexOf('bajaj'))
+// console.log(bike.lastIndexOf('bmw'))
+
+
+// bike.forEach(bike=>console.log(bike))
