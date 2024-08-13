@@ -1,0 +1,262 @@
+*{
+    margin:0px;
+    padding: 0;;
+}
+
+/* #one {
+    position: relative;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -76px;
+    gap: 5px;
+} */
+#nav_bar{
+    position: relative;
+    top: -20px;
+    left: 105px;
+    
+}
+#intro{
+    font-size:60px;
+    /* font-weight: bold; */
+    position: relative;
+    left: 220px;
+    color: rgb(99, 97, 97);
+
+}
+#logo{
+    position: relative;
+    left: 180px;
+    top: 12px;
+}
+#sign_btn {
+    position: relative;
+    left: -95px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding: 2px;
+    height: 46px;
+    width: 310px;
+    top: 75px;
+    background-color: white;
+}
+#email_btn{
+    position: relative;
+    left: -410px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding: 2px;
+    height: 46px;
+    width: 310px;
+    top: 145px;
+    background-color: white;
+}
+
+#image{
+    position: relative;
+    top: -311px;
+    left: 720px;
+    height: 600px;
+}
+#policy{
+    position: relative;
+   left: 232px;
+   top: 150px;
+   font-size: x-small;
+}
+#policy2{
+    position: relative;
+   left: 270px;
+   top: 150px;
+   font-size: x-small;
+}
+h6{
+    position: relative;
+    top: -407px;
+    left: 270px;
+    width: -1px;
+}
+h1{
+    position: relative;
+    top: -300px;
+    left: 104px;
+    font-size: xx-large ;
+    color: grey;
+    font-family: ui-monospace;
+
+}
+p{
+    position: relative;
+    top: -279px;
+    left: 106px;
+    font-size: x-large;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    top: -489px;
+    left: 650px;
+    width: 595px;
+    border: none;
+    padding: -17px;
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0073b1;
+    color: #fff;
+    border-color: #0073b1;
+}
+
+button.show-all, button.show-more {
+    background-color: #0073b1;
+    color: #fff;
+}
+
+button.show-all:hover, button.show-more:hover {
+    background-color: #005a8c;
+    border-color: #005a8c;
+}
+
+.explore-articles, .find-job {
+    margin-bottom: 40px;
+}
+/* .explore-articles1,.find-job1{
+    margin-bottom: 40px;
+} */
+#head{
+    position: relative;
+    top: 160px;
+    left: 32px;
+    
+}
+#com{
+    position: relative;
+    top: -4px;
+    left: 615px;
+    padding: -35px;
+    margin: -46px;
+}
+#pin{
+    position: relative;
+    top: -4px;
+    left: 615px;
+    padding: -35px;
+    margin: -46px;
+}
+#copy {
+    position: relative;
+    top: -96px;
+    left: 616px;
+    width: 491px;
+}
+#btn_3{
+    position: relative;
+    left: 639px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 2px;
+    height: 46px;
+    width: 116px;
+    top: -72px;
+    background-color: white;
+    border: none;
+}
+#btn_4{
+    position: relative;
+    left: 648px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 2px;
+    height: 46px;
+    width: 118px;
+    top: -72px;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+#job{
+    background-color: #f2eee5;
+    position: relative;
+    top: -436px;
+    height: 258px;
+}
+#a{
+    position: relative;
+    left: 654px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 2px solid #7371ee;
+    padding: 2px;
+    height: 46px;
+    width: 120px;
+    top: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+button{
+    border-radius: none;
+}
+#of{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 68px;
+    width: 1528px;
+    font-size: xxx-large;
+    font-family: 'DM Sans';
+    color:  rgb(199, 82, 82);
+    left: 10px;
+}
+#set{
+    position: relative;
+    top: 195px;
+    bottom: 10px;
+    /* zoom: inherit; */
+    width: 1567px;
+}

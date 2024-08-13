@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    position: relative;
+    top : 75px;
+}
+.first_id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: x-large;
+    
+
+}
+.first_id th{
+    padding: 20px;
+    background-color: rgb(172, 208, 153);
+}
+.first_id td{
+    padding: 20px;
+    background-color: antiquewhite;
+}

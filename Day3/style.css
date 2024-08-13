@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+  position: relative;
+  width: 160px; 
+  top: 0px;
+  left: 150px; 
+}
+#btn1{
+    border: transparent;
+    position: relative;
+    top: -45px;
+    left: 550px;
+}
+#btn2{
+    position: relative;
+    top: -40px;
+    left: 650px;
+}
