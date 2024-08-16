@@ -100,3 +100,48 @@ console.log(min)
 let arr=[1,7,4,5,2]
 console.log(arr.sort())
 
+let person={
+    name :'john',
+    age:55,
+    isStudent:false
+ }
+ let persons=new Object()
+ persons.name='johns'
+ persons.age=55 
+ person.isStudent=false
+ console.log(persons)
+ console.log(person.name)
+ console.log(persons['name'])
+ person.age=35
+ console.log(person)
+ delete person.age
+ console.log(person)
+
+ let persone={
+    name:'kl',
+    age:99,
+    greet:function(){
+        console.log("hello my name is naman")
+    }
+ }
+ persone.greet()
+ let pers={
+    name:'kl',
+    age:99,
+    address:{
+        street:"lorem",
+        city:'nv',
+        country:"india"
+    }
+ }
+ console.log(pers.address.city)
+
+ for(let key in pers){
+    console.log(pers[key])
+ }
+ console.log(Object.keys(pers))
+ console.log(Object.values(pers))
+
+ let addInfo = {hobbies:['reading','game']}
+ let updatep=Object.assign({},pers,addInfo )
+ console.log(updatep)

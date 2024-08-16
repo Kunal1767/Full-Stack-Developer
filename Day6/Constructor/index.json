@@ -1,0 +1,20 @@
+[
+    {
+        "name": "harsh",
+        "age": 0,
+        "isStudent": false,
+        "add":{
+            "Street" : "xyz",
+            "city": "yzx",
+            "zipcode" : "000"
+        },
+        "hobbies":["r","w"],
+        "course" :[
+            {
+                "title" : "js",
+                "completed": true
+
+            }
+        ]
+    }
+]
